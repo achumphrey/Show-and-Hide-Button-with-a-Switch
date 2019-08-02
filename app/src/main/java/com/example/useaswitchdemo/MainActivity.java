@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         Switch onOffSwitch = (Switch) findViewById(R.id.on_off_switch);
         btn_show_hide   = findViewById(R.id.btn_show_hide);
+    //    btn_show_hide.setVisibility(View.VISIBLE);
 
         onOffSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 
